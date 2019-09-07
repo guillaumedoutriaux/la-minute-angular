@@ -3,17 +3,12 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'lib-ng-content',
   template: `
-    <p>
-      ng-content works!
-    </p>
+    ng-content works!
   `,
   styles: []
 })
 export class NgContentComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

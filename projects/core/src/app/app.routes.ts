@@ -8,6 +8,18 @@ export const appRoutes: Routes = [
       import('@workspace/ng-content/src/public_api').then(
         m => m.NgContentModule
       )
+  },
+  {
+    path: 'ng-content',
+    loadChildren: () =>
+      import('@workspace/ng-content/src/public_api').then(
+        m => m.NgContentModule
+      )
+  },
+  {
+    path: 'rxjs',
+    loadChildren: () =>
+      import('@workspace/rxjs/src/public-api').then(m => m.RxjsModule)
   }
   // {
   //   path: '**',
