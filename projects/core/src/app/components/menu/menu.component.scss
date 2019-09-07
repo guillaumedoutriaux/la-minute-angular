@@ -1,0 +1,31 @@
+@import 'projects/core/src/stylesheets/variables';
+
+.menu {
+  background-color: $white;
+  border-bottom: 2px solid $punch;
+  padding: $marge_small;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: $container;
+  }
+
+  &__list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  &__item {
+    color: $punch;
+    margin: 5px 10px;
+  }
+
+  &__logo {
+    height: 45px;
+    width: 45px;
+  }
+}

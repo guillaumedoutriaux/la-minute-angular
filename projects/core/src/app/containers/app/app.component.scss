@@ -1,0 +1,9 @@
+@import 'projects/core/src/stylesheets/variables';
+
+.app {
+  &__content {
+    max-width: $container;
+    margin: 0 auto;
+    padding: 0 $marge_small;
+  }
+}
