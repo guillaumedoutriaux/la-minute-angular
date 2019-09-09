@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app.routes';
+import { NgrxconfigModule } from './ngrxconfig.module';
 
 import * as fromContainers from './containers';
 import * as fromComponents from './components';
@@ -14,7 +15,8 @@ import * as fromComponents from './components';
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgrxconfigModule
   ],
   providers: [],
   bootstrap: [fromContainers.AppComponent]
