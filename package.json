@@ -29,7 +29,7 @@
     "@ngrx/store": "^8.0.1",
     "@ngrx/store-devtools": "^8.0.1",
     "core-js": "^2.5.4",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "graphql": "^14.1.1",
     "graphql-tag": "^2.10.1",
     "ngx-mask": "^8.0.0",
